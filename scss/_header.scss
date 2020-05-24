@@ -1,0 +1,95 @@
+.header{
+	width: 100%;
+	background-color: #02918c;
+}
+.top__header{
+	display: flex;
+	justify-content: space-between
+}
+.logo{
+	font-size: 2em;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 19px 0 24px 0;
+}
+
+.site__name{
+	color: #cfc91d;
+	&>span{
+		color: #fff;
+	}
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	&_item{
+		font-size: 0.857em;
+		font-weight: 800;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #fff;
+		padding: 2.5em 0 0 3.57em;
+		&:hover{
+			color: #cfc91d;
+		}
+	}
+}
+
+.intro{
+	width: 100%;
+	height: auto;
+	background: url('../img/intro__bg.jpg') no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	&--flex{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	&__fixed{
+		margin-bottom: 79px;
+	}
+	&__text{
+		color: #fff;
+		text-align: center;
+		line-height: 1,4;
+		align-self: center;
+		 margin:14em  auto ;
+		margin-bottom:  200px;
+	}
+	&__suptitle{
+		font-size: 1.5em;
+		font-weight: 300;
+	}
+	&__title{
+		font-size: 3.5em;
+		text-transform: uppercase;
+		font-weight: 800;
+	}
+	&__subtitle{
+		font-size: 0.875em;
+		padding-bottom: 3.2em;
+	}
+	&__img{
+		padding-bottom: 3.57em;
+	}
+
+}
+
+.btn{
+	font-size: 1em;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #0b1016;
+	background-color: #cfc91d;
+	padding: 1.5em 3.2em;
+}

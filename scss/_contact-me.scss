@@ -1,0 +1,66 @@
+.form__block{
+	width: 100%;
+	background-color: #0b0b0b;
+	margin-top: 65px;
+
+}
+
+.forms{
+	width: 920px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 65px 0;
+	color: #898989;
+	text-transform: uppercase;
+	font-size: 16px;
+	&>form{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 70px;
+	}
+
+	&__item{
+		width: 642px;
+		border-top: 1px solid #898989;
+		border-left: none;
+		border-bottom: none;
+		border-right: none;
+		background-color: #0b0b0b ;
+		color: #898989;
+		box-sizing: padding-box;
+		padding: 10px;
+		margin: 10px 0 10px 0;
+		&:focus{
+			border: none;
+			outline:1px solid #898989;
+		}
+	}
+}
+
+.massage{
+	width: 929px;
+	height: 90px;
+	border-top: 1px solid #898989;
+	border-bottom: 1px solid #898989;
+	border-left: none;
+	border-right: none;
+	background-color: #0b0b0b ;
+	color: #898989;
+	box-sizing: padding-box;
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	&:focus{
+		border: none;
+		outline:1px solid #898989;
+	}
+}
+
+.btn__form{
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #0b1016;
+	background-color: #cfc91d;
+	padding: 20px 65px;
+	margin: 65px 0 70px 0;
+}	
